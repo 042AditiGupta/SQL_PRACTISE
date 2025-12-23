@@ -67,11 +67,8 @@ student_table
 order by student_id;
 
 #27. Write an SQL query to list STUDENT_ID who does not get Scholarship.
-select distinct s.student_id 
-from student_table s
-left join scholarship s2
-on s.student_id=s2.student_ref_id
-where s2.student_ref_id is null;
+select student_id from student_table
+where student_id not in (select student_ref_id from scholarship);
 
 #28. Write an SQL query to fetch the first 50% records from a table.
 select Floor(count(*)/2) from student_table;

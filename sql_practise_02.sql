@@ -40,6 +40,7 @@ select *
 from student_table
 order by GPA desc
 LIMIT 4,1;
+# limit 4,1 will skip top 4 records
 
 #23. Write an SQL query to determine the 5th highest GPA without using LIMIT keyword.
 select *

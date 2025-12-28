@@ -1,5 +1,4 @@
-"# SQL_PRACTISE" 
-This is practical example ..
+
 This repository contains my hands-on SQL practice focused on writing efficient and interview-oriented queries using practical examples. Instead of using random datasets, I created a Student Table to simulate a real-world academic database scenario.
 
 The student_table includes columns such as:
